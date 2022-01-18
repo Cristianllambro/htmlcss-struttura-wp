@@ -4,3 +4,30 @@
     box-sizing: border-box;
 }
 
+body {
+    margin-left: 10em;
+    margin-right: 10em;
+}
+.head {
+    height: 4em;
+    background-color: #e579e6;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.main-top {
+    background-color: #e1d67a;
+    height: 20em;
+    margin-bottom: 1em;
+}
+
+.middle {
+    background-color: #0086ff;
+    height: 30em;
+}
+
+.header-middle, .left-bar,
+.center, .right-bar {
+    background-color: #abcfe7;
+}
+
