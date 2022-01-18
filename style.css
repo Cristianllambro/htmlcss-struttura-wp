@@ -9,7 +9,7 @@ body {
     margin-right: 10em;
 }
 .head {
-    height: 4em;
+    height: 6em;
     background-color: #e579e6;
     margin-top: 2em;
     margin-bottom: 1em;
@@ -29,5 +29,33 @@ body {
 .header-middle, .left-bar,
 .center, .right-bar {
     background-color: #abcfe7;
+}
+
+.header-middle {
+    height: 4em;
+    margin-bottom: .8em;
+}
+
+.left-bar {
+    width: 25%;
+    height: 24em ;
+    margin-bottom: .8em;
+    float: left;
+    margin-right: 1em;
+}
+
+.right-bar {
+    width: 25%;
+    height: 24em ;
+    margin-bottom: .8em;
+    margin-left: 1em;
+    float: right;
+}
+
+.center {
+    width: calc(50% - 2em);
+    height: 24em;
+    margin-bottom: .8em;
+    float: left;
 }
 
